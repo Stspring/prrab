@@ -10,9 +10,9 @@ c = int(data[2])
 if c == a * b:
     output_data = open("output.txt",'w')
     output_data.write('YES')
+    output_data.close()
 else:
     output_data = open("output.txt",'w')
     output_data.write('NO')
-
+    output_data.close()
 input_data.close()
-output_data.close()
